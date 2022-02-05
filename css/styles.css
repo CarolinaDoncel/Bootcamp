@@ -2,22 +2,54 @@ header {
 background-color: #41B457;
 color: white;
 font-family: Helvetica;
+padding: 10px;
 }
 
-.p-pulpas{font-size: 1.2rem;
-    color: black;
-    font-family: Helvetica;}
+.logo {
+    width: 110px;
+    margin: 9px;
+}
+
+.bg-banner{  
+background-color: rgba(140, 224, 225, 50%);
+width: 500px;
+padding: 20px;
+}
+
+h1.title-banner{
+    color: red;
+    text-shadow: 2px 3px 2px #386e49;
+    
+}
+.p-pulpas{
+    font-size: 1.2rem;
+    color: #fff;
+    font-family: Helvetica;
+    text-shadow: 1px 2px 1px black
+}
+
+.btn-text{
+    font-weight: bold;
+}
+
+.padding-title{
+    padding-top: 100px;
+}
 
 
 .banner {
-    background-color: #41B457;
+    background-image: url("../imagenes/bannerbg-fruit.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
     color: black;
     font-family: Helvetica;  
+    min-height: 480px;
 }
   
 ul.menu{
     list-style: none;
     float: right;
+    padding: 11px;
 }
 
 ul.menu li {
@@ -25,19 +57,26 @@ ul.menu li {
   }
 
 ul.menu li a {
-    color: #333;
+    color: green;
     display: block;
     padding: 20px 30px 10px 90px;
     
     text-decoration: none;
   }
-  
+  ul.menu li a:hover{
+    color: rgb(241, 226, 226);
+    
+    text-decoration: none;
+  }
+  ul.menu li:hover{
+      background: green;
+  }
 .header-right-icon {
-    font-size: 25px;
+    font-size: 20px;
 }
 
 .header-left-icon {
-    font-size: 25px;
+    font-size: 20px;
 }
 
 .fondo-producto-1{
@@ -57,3 +96,4 @@ ul.menu li a {
     background-repeat: no-repeat;
     background-size: cover;
 }
+
