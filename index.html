@@ -154,7 +154,23 @@
     <div class="container">
       <div class="row">
         <div class="col-4 pt-3">
-          <img class="logo" src="./imagenes/calling.png" />
+          <form action="/" method="POST" class="contact-form">
+            <div class="form-group my-3">
+              <input type="text" class="form-control" name="nombres" id="nombres-contacto" placeholder="Nombres" value="" />
+            </div>
+            <div class="form-group my-3">
+              <input type="text" class="form-control" name="apellidos" id="apellidos-contacto" placeholder="Apellidos" value="" />
+            </div>
+            <div class="form-group my-3">
+              <input type="email" class="form-control" name="email" id="email-contacto" placeholder="Email" value="" />
+            </div>
+            <div class="form-group my-3">
+              <textarea class="form-control" name="mensaje" id="mensaje-contacto" rows="4" placeholder="Mensaje"></textarea>
+            </div>
+            <div class="form-group my-3">
+              <button type="submit" value="Enviar">Enviar</button>
+            </div>
+          </form>
         </div>
         <div class="col-4 text-center">
           <p class="p-pulpas"> Contáctanos </p>
