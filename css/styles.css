@@ -23,10 +23,11 @@ h1.title-banner{
 }
 .p-pulpas{
     font-size: 1.5rem;
-    color: #0e0a0a;
+    color: white;
     font-family: Helvetica;
     text-shadow: 1px 2px 1px #c1bfba;
     font-weight: bold;
+
 }
 
 .p-quines-somos{
@@ -57,6 +58,7 @@ h1.title-banner{
 }
   .banner-video{
       background-color: #41B457;
+      padding: 30px;
   }
 ul.menu{
     list-style: none;
@@ -105,18 +107,21 @@ ul.menu li a {
     background-image: url("../imagenes/pulpas-de-fruta.jpg");
     background-repeat: no-repeat;
     background-size: cover;
+    padding: 40px;
 }
 
 .fondo-producto-2{
     background-image: url("../imagenes/pulpa-funcional.jpg");
     background-repeat: no-repeat;
     background-size: cover;
+    padding: 40px;
 }
 
 .fondo-producto-3{
     background-image: url("../imagenes/pulpa-exotica.jpg");
     background-repeat: no-repeat;
     background-size: cover;
+    padding: 40px;
 }
 
 .menufinpag {
