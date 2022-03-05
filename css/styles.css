@@ -1,209 +1,213 @@
 header {
-background-color: #41B457;
-color: white;
-font-family: Helvetica;
-padding: 10px;
+  background-color: #41b457;
+  color: white;
+  font-family: Helvetica;
+  padding: 10px;
 }
 
 .logo {
-    width: 110px;
-    margin: 9px;
+  width: 110px;
+  margin: 9px;
 }
 
-.bg-banner{  
-background-color: rgba(140, 224, 225, 50%);
-width: 500px;
-padding: 20px;
+.bg-banner {
+  background-color: rgba(140, 224, 225, 50%);
+  width: 500px;
+  padding: 20px;
 }
 
-h1.title-banner{
-    color: red;
-    text-shadow: 2px 3px 2px #386e49;
-    
+h1.title-banner {
+  color: red;
+  text-shadow: 2px 3px 2px #386e49;
 }
-.p-pulpas{
-    font-size: 1.5rem;
-    color: white;
-    font-family: Helvetica;
-    text-shadow: 1px 2px 1px #c1bfba;
-    font-weight: bold;
-
+.p-pulpas {
+  font-size: 1.5rem;
+  color: white;
+  font-family: Helvetica;
+  text-shadow: 1px 2px 1px #c1bfba;
+  font-weight: bold;
 }
 
-.p-quines-somos{
-    color: #fff;
-    font-size: 1.4rem;
-    margin-bottom: 34px;
+.p-quines-somos {
+  color: #fff;
+  font-size: 1.4rem;
+  margin-bottom: 34px;
 }
 
-.btn-text{
-    font-weight: bold;
+.btn-text {
+  font-weight: bold;
 }
 .btn-warning {
-    padding: 9px 57px;
+  padding: 9px 57px;
 }
 
-.padding-title{
-    padding-top: 100px;
+.padding-title {
+  padding-top: 100px;
 }
-
 
 .banner {
-    background-image: url("../imagenes/bannerbg-fruit.jpg");
-    background-repeat: no-repeat;
-    background-size: cover;
-    color: black;
-    font-family: Helvetica;  
-    min-height: 480px;
+  background-image: url("../imagenes/bannerbg-fruit.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: black;
+  font-family: Helvetica;
+  min-height: 480px;
 }
-  .banner-video{
-      background-color: #41B457;
-      padding: 30px;
-  }
-ul.menu{
-    list-style: none;
-    float: right;
-    padding: 11px;
+.banner-video {
+  background-color: #41b457;
+  padding: 30px;
 }
-
-ul.menu-footer{
-    list-style: none;
-    float: right;
-    padding: 11px;
+ul.menu {
+  list-style: none;
+  float: right;
+  padding: 11px;
 }
 
-ul.menu-footer{
-    list-style: none;
-    float: right;
-    padding: 11px;
+ul.menu-footer {
+  list-style: none;
+  float: right;
+  padding: 11px;
+}
+
+ul.menu-footer {
+  list-style: none;
+  float: right;
+  padding: 11px;
 }
 
 ul.menu li {
-    float: left;
-  }
+  float: left;
+}
 
 ul.menu li a {
-    color: green;
-    display: block;
-    padding: 20px 25px;
-    text-decoration: none;
-    margin-top: 14px;
-  }
-  
-  ul.menu li a:hover{
-      text-decoration:underline;
-      font-weight: 500;
-      
-  }
+  color: green;
+  display: block;
+  padding: 20px 25px;
+  text-decoration: none;
+  margin-top: 14px;
+}
+
+ul.menu li a:hover {
+  text-decoration: underline;
+  font-weight: 500;
+}
 .header-right-icon {
-    font-size: 20px;
+  font-size: 20px;
 }
 
 .header-left-icon {
-    font-size: 20px;
+  font-size: 20px;
 }
 
-.fondo-producto-1{
-    background-image: url("../imagenes/pulpas-de-fruta.jpg");
-    background-repeat: no-repeat;
-    background-size: cover;
-    padding: 40px;
+.fondo-producto-1 {
+  background-image: url("../imagenes/pulpas-de-fruta.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 40px;
 }
 
-.fondo-producto-2{
-    background-image: url("../imagenes/pulpa-funcional.jpg");
-    background-repeat: no-repeat;
-    background-size: cover;
-    padding: 40px;
+.fondo-producto-2 {
+  background-image: url("../imagenes/pulpa-funcional.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 40px;
 }
 
-.fondo-producto-3{
-    background-image: url("../imagenes/pulpa-exotica.jpg");
-    background-repeat: no-repeat;
-    background-size: cover;
-    padding: 40px;
+.fondo-producto-3 {
+  background-image: url("../imagenes/pulpa-exotica.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 40px;
 }
 
 .menufinpag {
-    background-color: #41B457;
-    color: white;
-    font-family: Helvetica;
-    padding: 10px;
+  background-color: #41b457;
+  color: white;
+  font-family: Helvetica;
+  padding: 10px;
 }
 
 /* estilos para carrusel testimonio*/
 
 .card {
-    box-shadow: 0px 4px 8px 0px #BDBDBD
+  box-shadow: 0px 4px 8px 0px #bdbdbd;
 }
 
 .profile-pic {
-    width: 100px !important;
-    height: 100px;
-    box-shadow: 0px 4px 8px 0px #BDBDBD
+  width: 100px !important;
+  height: 100px;
+  box-shadow: 0px 4px 8px 0px #bdbdbd;
 }
 
 .owl-carousel .owl-nav button.owl-next,
 .owl-carousel .owl-nav button.owl-prev {
-    background: 0 0;
-    color: #1E88E5 !important;
-    border: none;
-    padding: 5px 20px !important;
-    font: inherit;
-    font-size: 50px !important
+  background: 0 0;
+  color: #1e88e5 !important;
+  border: none;
+  padding: 5px 20px !important;
+  font: inherit;
+  font-size: 50px !important;
 }
 
 .owl-carousel .owl-nav button.owl-next:hover,
 .owl-carousel .owl-nav button.owl-prev:hover {
-    color: #0D47A1 !important;
-    background-color: transparent !important
+  color: #0d47a1 !important;
+  background-color: transparent !important;
 }
 
 .owl-dots {
-    display: none
+  display: none;
 }
 
 button:focus {
-    -moz-box-shadow: none !important;
-    -webkit-box-shadow: none !important;
-    box-shadow: none !important;
-    outline-width: 0
+  -moz-box-shadow: none !important;
+  -webkit-box-shadow: none !important;
+  box-shadow: none !important;
+  outline-width: 0;
 }
 
 .item {
-    display: none
+  display: none;
 }
 
 .next {
-    display: block !important;
-    position: relative;
-    transform: scale(0.8);
-    transition-duration: 0.3s;
-    opacity: 0.6
+  display: block !important;
+  position: relative;
+  transform: scale(0.8);
+  transition-duration: 0.3s;
+  opacity: 0.6;
 }
 
 .prev {
-    display: block !important;
-    position: relative;
-    transform: scale(0.8);
-    transition-duration: 0.3s;
-    opacity: 0.6
+  display: block !important;
+  position: relative;
+  transform: scale(0.8);
+  transition-duration: 0.3s;
+  opacity: 0.6;
 }
 
 .item.show {
-    display: block;
-    transition-duration: 0.4s
+  display: block;
+  transition-duration: 0.4s;
 }
 
 @media screen and (max-width: 999px) {
+  .next,
+  .prev {
+    transform: scale(1);
+    opacity: 1;
+  }
 
-    .next,
-    .prev {
-        transform: scale(1);
-        opacity: 1
-    }
+  .item {
+    display: block !important;
+  }
+}
 
-    .item {
-        display: block !important
-    }
+@media screen and (max-width: 800px) {
+}
+
+@media screen and (max-width: 576px) {
+  .bg-banner {
+    width: 100%;
+  }
 }
